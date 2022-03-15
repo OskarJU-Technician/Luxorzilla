@@ -54,7 +54,7 @@ table {
 
 
 
-#header{
+#ZeroTwo{
 
 grid-area: ZeroTwo;
 background-color: grey;
@@ -67,14 +67,14 @@ background-color: grey;
 
 }
 
-#ZeroTwo{
+#RemXEmilia{
 	grid-area: RemXEmilia;
 	background-color: red;
 
 
 }
 
-#RemXEmilia{
+#Maisan{
 	grid-area: Maisan;
 	background-color: blue;
 }
