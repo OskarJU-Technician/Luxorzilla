@@ -56,7 +56,7 @@ table {
 
 #header{
 
-grid-area: header;
+grid-area: ZeroTwo;
 background-color: grey;
 
 }
@@ -68,14 +68,14 @@ background-color: grey;
 }
 
 #ZeroTwo{
-	grid-area: ZeroTwo;
+	grid-area: RemXEmilia;
 	background-color: red;
 
 
 }
 
 #RemXEmilia{
-	grid-area: RemXEmilia;
+	grid-area: Maisan;
 	background-color: blue;
 }
 
@@ -88,10 +88,10 @@ height: 200vh;
 grid-template-columns: 100%;
 grid-template-rows: 20vh 80vh 80vh 20vh;
 grid-template-areas:
-	"header"
-	"Asuna"
 	"ZeroTwo"
+	"Asuna"
 	"RemXEmilia"
+	"Maisan"
 
 
 
