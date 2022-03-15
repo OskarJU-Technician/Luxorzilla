@@ -68,8 +68,10 @@ background-color: grey;
 }
 
 #ZeroTwo{
+	padding: 10px;
+	text-align: center;
 	grid-area: RemXEmilia;
-	background-color: red;
+	background-color: #52514E;
 
 
 }
