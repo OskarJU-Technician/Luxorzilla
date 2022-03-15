@@ -54,7 +54,7 @@ table {
 
 
 
-#header{
+#ZeroTwo{
 
 grid-area: ZeroTwo;
 background-color: grey;
@@ -67,16 +67,18 @@ background-color: grey;
 
 }
 
-#ZeroTwo{
-	padding: 10px;
-	text-align: center;
+#RemXEmilia{
 	grid-area: RemXEmilia;
 	background-color: #52514E;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Lucida Console", "Courier New", monospace;
 
 
 }
 
-#RemXEmilia{
+#Maisan{
 	grid-area: Maisan;
 	background-color: blue;
 }
@@ -98,3 +100,5 @@ grid-template-areas:
 
 
 }
+
+/*----------------Tom---------------------*/
