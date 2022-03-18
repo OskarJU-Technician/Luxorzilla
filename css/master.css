@@ -96,10 +96,52 @@ grid-template-areas:
 
 
 }
-
-
 /*-----------------Oskar------------------------*/
 
+#ZeroTwo{
+	background-color: black;
+	display: flex;
+}
 
+#låd1{
+	width: 2%;
+	height: 100%;
+	background-color: black;
+}
+
+#låd2{
+	width: 10%;
+	height: 100%;
+	background-image: url("../Bilder/LUZORZILLALogga.png");
+	background-size: cover;
+}
+
+#låd2kf{
+	height: 100%;
+	width: 3%;
+}
+#låd3{
+	width: 15%;
+	height: 100%;
+	background-color: black;
+}
+
+#låd4{
+	width: 15%;
+	height: 100%;
+	background-color: black;
+}
+
+#låd5{
+	width: 15%;
+	height: 100%;
+	background-color: black;
+}
+
+.Text{
+	font-family: "Garamond", "Times New Roman";
+	font-size: 40px;
+	color: white;
+	margin-top: 17%
 
 /*----------------------------------------------*/
