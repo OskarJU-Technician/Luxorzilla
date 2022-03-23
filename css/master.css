@@ -98,6 +98,26 @@ grid-template-areas:
 }
 /*-----------------Oskar------------------------*/
 
+.Text{
+	font-family: "Garamond", "Times New Roman";
+	font-size: 40px;
+	color: white;
+	margin-top: 17%
+}
+
+.BotText{
+color: white;
+font-size: 25px;
+}
+
+.BotBotText{
+color: white;
+position: absolute;
+bottom: 0;
+font-size: 20px;
+}
+/*-------Top------*/
+
 #ZeroTwo{
 	background-color: black;
 	display: flex;
@@ -138,10 +158,41 @@ grid-template-areas:
 	background-color: black;
 }
 
-.Text{
-	font-family: "Garamond", "Times New Roman";
-	font-size: 40px;
-	color: white;
-	margin-top: 17%
+/*-------Bot-------*/
 
+#Maisan{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+}
+
+#Botlåd1{
+width: 20%;
+height: 50%;
+}
+
+#Botlåd2{
+width: 60%;
+height: 50%;
+}
+
+#Botlåd3{
+width: 20%;
+height: 50%;
+}
+
+#Botlåd4{
+height: 50%;
+width: 30%;
+position: relative;
+}
+
+#Botlåd5{
+height: 50%;
+width: 70%;
+}
+
+#Botlåd6{
+
+}
 /*----------------------------------------------*/
