@@ -102,3 +102,45 @@ grid-template-areas:
 }
 
 /*----------------Tom---------------------*/
+
+
+
+
+
+.pil1{
+	width: 7%;
+	height: auto;
+}
+
+.pil2{
+	width: 7%;
+	height: auto;
+}
+
+.Bilder{
+	position: relative;
+	bottom: 50px;
+	left: -520px;
+
+
+}
+
+.BilderBilar{
+	display: flex;
+	width: 2400px;
+
+
+
+}
+
+.Vit{
+	width: 70%;
+}
+
+.window{
+	width: 800px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+
+}
