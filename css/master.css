@@ -128,6 +128,7 @@ grid-template-areas:
 .BilderBilar{
 	display: flex;
 	width: 2400px;
+	position: relative;
 
 
 
