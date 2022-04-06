@@ -70,10 +70,14 @@ background-color: grey;
 #RemXEmilia{
 	grid-area: RemXEmilia;
 	background-color: #52514E;
+	color: yellow;
 	padding: 10px;
 	text-align: center;
 	font-size: 30px;
 	font-family: "Lucida Console", "Courier New", monospace;
+	background-image: url(../bilder/parkering.jpg);
+	background-size: cover;
+  background-repeat: no-repeat;
 
 
 }
@@ -104,7 +108,13 @@ grid-template-areas:
 /*----------------Tom---------------------*/
 
 
-
+.vidarepil{
+	position: relative;
+	bottom: 50px;
+	right: -560px;
+	width: 7%;
+	height: auto;
+}
 
 
 .pil1{
@@ -119,7 +129,7 @@ grid-template-areas:
 
 .Bilder{
 	position: relative;
-	bottom: 50px;
+	bottom: 150px;
 	left: -520px;
 
 
@@ -134,9 +144,7 @@ grid-template-areas:
 
 }
 
-.Vit{
-	width: 70%;
-}
+
 
 .window{
 	width: 800px;
