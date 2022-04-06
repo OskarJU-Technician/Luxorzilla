@@ -100,6 +100,7 @@ grid-template-areas:
 /*-----------------Oskar------------------------*/
 
 .Text{
+	text-decoration: none;
 	font-family: "Garamond", "Times New Roman";
 	font-size: 40px;
 	color: white;
