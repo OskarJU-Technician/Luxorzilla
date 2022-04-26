@@ -69,44 +69,89 @@ background-color: grey;
 
 
 
-
 }
+
+
 
 .Models{
-text-align: center;
-font-size: 35px;
-color: white;
+	width: 540px;
+	margin: -50px auto;
+text-align:center;
+font-size: 4vw;
+color: black;
 margin-top: 20px;
-position: relative;right: 10px;bottom: 4px;
-
-}
-.pil{
-
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 10px;
-position: relative;left: 50px; bottom:4px;
-
-
+position: relative;
+right: 10px;
+bottom: 4px;
 
 
 }
 
-.Bilder{
-height: 130%;
-width: 130%;
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: -2%;
-position: relative;left: 300px; top:-180px;
+.slider-inner{
+
+width: 600px;
+height: 600px;
+
+position: relative;
+overflow: hidden;
+float: left;
+
+
+}
+
+#b1{
+
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+
+#b2{
+
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+
+
+.slider-inner img.active{
+position: relative;
+left: 50px;
 
 
 
 }
-.button{
 
+
+.prev,.next{
+float:left;
+margin-top:180px;
+cursor: pointer;
+
+
+
+}
+
+
+
+.next{
+
+	height: 60px;
+	width: 60px;
+	position: relative 40px;
+	margin-left: 23px;
+
+
+}
+.prev{
+
+height: 60px;
+width: 60px;
+position: relative 40px;
+margin-left: 260px;
+
+
+}
 
 
 
