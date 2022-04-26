@@ -1,6 +1,8 @@
 
 
 var pixel = 0;
+var slider = 0;
+var ani = $(".BilderBilar");
 
 
 
@@ -14,7 +16,9 @@ var pixel = 0;
 
 
 
-  $(".pil1").click(function() {
+ $(".pil1").click(function() {
+
+
 
     console.log("right");
     pixel += 800;
@@ -23,25 +27,51 @@ var pixel = 0;
     if(pixel==2400){
       pixel = 0;
 
-      $(".BilderBilar").animate({
+      if(slider==0){
+        $(ani).animate({
 
-        right: "0px",
+          right: "0px",
 
+        }
+        ,1000, function(){ //Animationen tar en sekund
+        console.log("klart");
+      });
       }
-      ,1000, function(){ //Animationen tar en sekund
-      console.log("klart");
-    });
+      else if(slider==1){
+        $(ani).animate({
+
+          right: "0px",
+
+        }
+        ,1000, function(){ //Animationen tar en sekund
+        console.log("klart");
+      });
+      }
+
 
     }
     else {
-      $(".BilderBilar").animate({
+      if(slider==0){
+        $(ani).animate({
 
-        right: "+=800",
+          right: "+=800",
 
+        }
+        ,1000, function(){ //Animationen tar en sekund
+        console.log("klart");
+      });
       }
-      ,1000, function(){ //Animationen tar en sekund
-      console.log("klart");
-    });
+      else if(slider==1){
+        $(ani).animate({
+
+          right: "+=400",
+
+        }
+        ,1000, function(){ //Animationen tar en sekund
+        console.log("klart");
+      });
+      }
+
 
     }
 
@@ -63,40 +93,55 @@ var pixel = 0;
     if(pixel<0){
       pixel = 1600;
 
-      $(".BilderBilar").animate({
+      if(slider==0){
+        $(ani).animate({
 
-        right: "1600px",
+          right: "1600px",
 
+        }
+        ,1000, function(){ //Animationen tar en sekund
+        console.log("klart");
+      });
       }
-      ,1000, function(){ //Animationen tar en sekund
-      console.log("klart");
-    });
+      else if(slider==1){
+        $(ani).animate({
+
+          right: "800px",
+
+        }
+        ,1000, function(){ //Animationen tar en sekund
+        console.log("klart");
+      });
+      }
+
 
     }
     else {
-      $(".BilderBilar").animate({
+      if(slider==0){
+        $(ani).animate({
 
-        right: "-=800",
+          right: "-=800",
 
+        }
+        ,1000, function(){ //Animationen tar en sekund
+        console.log("klart");
+      });
       }
-      ,1000, function(){ //Animationen tar en sekund
-      console.log("klart");
-    });
+      else if(slider==1){
+        $(ani).animate({
+
+          right: "-=400",
+
+        }
+        ,1000, function(){ //Animationen tar en sekund
+        console.log("klart");
+      });
+      }
+
 
     }
     console.log(pixel);
-
-
-
-
   });
-
-
-
-
-
-
-
 
 
 
@@ -166,11 +211,16 @@ $(window).resize(function(){
   if($(window).width()<800){
 
     $(".Vit").attr("src","bilder/Bil1VitL.png");
+    $(".Grön").attr("src","bilder/Bil2Grönl.png");
+    $(".Rosa").attr("src","bilder/Bil3Rosal.png");
+
 
     $(".BilderBilar").css('width', '1200px');
     $(".window").css('width', '400px');
 
-    
+    slider = 1;
+
+console.log("slider="+slider);
 
 
 
@@ -182,11 +232,18 @@ $(window).resize(function(){
   if($(window).width()>800){
 
     $(".Vit").attr("src","bilder/Bil1Vit.png");
-    $(".Grön").attr("src","bilder/Bil2Grönl.png");
-    $(".Rosa").attr("src","bilder/Bil3Rosal.png");
+    $(".Grön").attr("src","bilder/Bil2Grön.png");
+    $(".Rosa").attr("src","bilder/Bil3Råsa.png");
 
     $(".BilderBilar").css('width', '2400px');
     $(".window").css('width', '800px');
 
+    slider = 0;
+
+
+
+
+
+console.log("slider="+slider);
   }
 });
