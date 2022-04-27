@@ -178,3 +178,75 @@ grid-template-areas:
 
 
 }
+
+
+/*-----------Oskar------------*/
+
+#Asuna{
+	background-image: url("../Bilder/regngata.jpg");
+	background-size: cover;
+}
+
+#AboutText{
+	text-decoration: none;
+	font-family: "Garamond", "Times New Roman";
+	font-size: 25px;
+	color: white;
+	margin-top: 30px;
+	margin-left: 70px;
+	margin-right: 500px;
+}
+
+#Hem{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen and (max-width: 1000px){
+
+	#låd2{
+		width: 20%;
+		height: 80%;
+		background-size: cover;
+	}
+
+	#låd3{
+		width: 25%;
+		height: 100%;
+		background-color: black;
+	}
+
+	#låd4{
+		width: 25%;
+		height: 100%;
+		background-color: black;
+	}
+
+	#låd5{
+		width: 25%;
+		height: 100%;
+		background-color: black;
+	}
+
+	#AboutText{
+		font-size: 25px;
+		margin-top: 30px;
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+
+	.Text{
+		font-size: 30px;
+		color: white;
+		margin-top: 17%
+
+
+
+}
+
+
+
