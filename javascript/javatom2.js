@@ -2,6 +2,33 @@
 
 var color = 1;
 
+$(".white").click(function(){
+
+  $(".Vit").attr("src","bilder/Bil1Vit.png");
+  $("#Taiga").css("color","#E3D3E3");
+  color = 1;
+
+
+});
+
+$(".green").click(function(){
+
+  $(".Vit").attr("src","bilder/Bil2Grön.png");
+  $("#Taiga").css("color","#2EE022");
+  color = 2;
+
+
+});
+
+$(".pink").click(function(){
+
+  $(".Vit").attr("src","bilder/Bil3Råsa.png");
+  $("#Taiga").css("color","#E04EA8");
+  color = 3;
+
+
+});
+
 
 $(window).resize(function(){
 
