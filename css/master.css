@@ -70,10 +70,22 @@ background-color: grey;
 #RemXEmilia{
 	grid-area: RemXEmilia;
 	background-color: #52514E;
+	color: yellow;
 	padding: 10px;
 	text-align: center;
 	font-size: 30px;
 	font-family: "Lucida Console", "Courier New", monospace;
+	background-image: url(../bilder/parkering.jpg);
+	background-size: cover;
+  background-repeat: no-repeat;
+
+
+
+}
+
+#Uzaki-Chan{
+	grid-area: Uz;
+	background-color: black;
 }
 
 #Maisan{
@@ -88,11 +100,12 @@ display: grid;
 height: 200vh;
 
 grid-template-columns: 100%;
-grid-template-rows: 20vh 80vh 80vh 20vh;
+grid-template-rows: 20vh 80vh 65vh 15vh 20vh;
 grid-template-areas:
 	"ZeroTwo"
 	"Asuna"
 	"RemXEmilia"
+	"Uz"
 	"Maisan"
 
 
@@ -101,20 +114,34 @@ grid-template-areas:
 
 /*----------------Tom---------------------*/
 
+
+.vidarepil{
+	position: relative;
+	width: 7%;
+	height: auto;
+}
+
 .pil1{
+	position: relative;
 	width: 7%;
 	height: auto;
 }
 
 .pil2{
+	position: relative;
 	width: 7%;
 	height: auto;
 }
 
+.Pilar{
+	display: flex;
+	justify-content: space-evenly;
+}
+
 .Bilder{
 	position: relative;
-	bottom: 50px;
-	left: -520px;
+	bottom: 150px;
+	left: -260px;
 
 
 }
@@ -122,14 +149,13 @@ grid-template-areas:
 .BilderBilar{
 	display: flex;
 	width: 2400px;
+	position: relative;
 
 
 
 }
 
-.Vit{
-	width: 70%;
-}
+
 
 .window{
 	width: 800px;
@@ -139,6 +165,30 @@ grid-template-areas:
 
 }
 
+@media screen and (max-width:800px){
+	.pil2{
+		width: 10%;
+		height: auto;
+	}
+
+	.pil1{
+		width: 10%;
+		height: auto;
+	}
+
+	.vidarepil{
+		width: 10%;
+		height: auto;
+	}
+
+	.BilderBilar{
+		padding-top: 50px;
+	}
+
+	.Pilar{
+		margin-top: 10px;
+	}
+}
 
 
 /*-----------------Oskar------------------------*/

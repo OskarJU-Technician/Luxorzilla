@@ -1,0 +1,180 @@
+/*-----------------Css Reset-----------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------- Kod ------------------------*/
+
+
+
+
+#ZeroTwo{
+
+grid-area: ZeroTwo;
+background-color: blue;
+
+}
+
+#Taiga{
+	grid-area: Asuna;
+	background-image: url(../bilder/HexBackg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: yellow;
+	text-align: center;
+	font-size: 30px;
+}
+
+#mellan{
+	grid-area: me;
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+#Maisan{
+	grid-area: Maisan;
+	background-color: purple;
+}
+
+
+#dubwrapper{
+
+display: grid;
+height: 120vh;
+
+grid-template-columns: 100%;
+grid-template-rows: 20vh 65vh 15vh 20vh;
+grid-template-areas:
+	"ZeroTwo"
+	"Asuna"
+	"me"
+	"Maisan"
+
+
+
+}
+
+/*----------------Tom---------------------*/
+
+
+
+
+
+
+
+.Vit{
+	width: 59%;
+	height: auto;
+}
+
+.window{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+
+
+.white{
+	position: relative;
+	width: 5%;
+	height: auto;
+}
+
+.green{
+	position: relative;
+	width: 5%;
+	height: auto;
+}
+
+.pink{
+	position: relative;
+	width: 5%;
+	height: auto;
+}
+
+.Pick1{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.Pick2{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media screen and (max-width:800px){
+	.white{
+		width: 10%;
+		height: auto;
+	}
+
+	.green{
+		width: 10%;
+		height: auto;
+	}
+
+	.pink{
+		width: 10%;
+		height: auto;
+	}
+
+	.Vit{
+		width: 100%;
+		height: auto;
+		padding-top: 10px;
+	}
+
+
+}
