@@ -63,29 +63,15 @@ background-color: grey;
 
 #Asuna{
 	grid-area: Asuna;
-	background-color: pink;
+	background-color: black;
 
 }
 
 #RemXEmilia{
 	grid-area: RemXEmilia;
-	background-color: #52514E;
-	color: yellow;
-	padding: 10px;
-	text-align: center;
-	font-size: 30px;
-	font-family: "Lucida Console", "Courier New", monospace;
-	background-image: url(../bilder/parkering.jpg);
-	background-size: cover;
-  background-repeat: no-repeat;
+	background-color: red;
 
 
-
-}
-
-#Uzaki-Chan{
-	grid-area: Uz;
-	background-color: black;
 }
 
 #Maisan{
@@ -97,99 +83,18 @@ background-color: grey;
 #dubwrapper{
 
 display: grid;
-height: 200vh;
+height: 100vh;
 
 grid-template-columns: 100%;
-grid-template-rows: 20vh 80vh 65vh 15vh 20vh;
+grid-template-rows: 20vh 80vh 20vh;
 grid-template-areas:
 	"ZeroTwo"
 	"Asuna"
-	"RemXEmilia"
-	"Uz"
 	"Maisan"
 
 
 
 }
-
-/*----------------Tom---------------------*/
-
-
-.vidarepil{
-	position: relative;
-	width: 7%;
-	height: auto;
-}
-
-.pil1{
-	position: relative;
-	width: 7%;
-	height: auto;
-}
-
-.pil2{
-	position: relative;
-	width: 7%;
-	height: auto;
-}
-
-.Pilar{
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.Bilder{
-	position: relative;
-	bottom: 150px;
-	left: -260px;
-
-
-}
-
-.BilderBilar{
-	display: flex;
-	width: 2400px;
-	position: relative;
-
-
-
-}
-
-
-
-.window{
-	width: 800px;
-	overflow: hidden;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-@media screen and (max-width:800px){
-	.pil2{
-		width: 10%;
-		height: auto;
-	}
-
-	.pil1{
-		width: 10%;
-		height: auto;
-	}
-
-	.vidarepil{
-		width: 10%;
-		height: auto;
-	}
-
-	.BilderBilar{
-		padding-top: 50px;
-	}
-
-	.Pilar{
-		margin-top: 10px;
-	}
-}
-
 
 /*-----------------Oskar------------------------*/
 
@@ -217,7 +122,6 @@ font-size: 20px;
 #ZeroTwo{
 	background-color: black;
 	display: flex;
-	position: sticky; top: 0px;
 }
 
 #låd1{
@@ -293,6 +197,29 @@ width: 70%;
 
 }
 
+/*--------------About css------------------*/
+
+#Asuna{
+	background-image: url("../Bilder/regngata.jpg");
+	background-size: cover;
+}
+
+#AboutText{
+	text-decoration: none;
+	font-family: "Garamond", "Times New Roman";
+	font-size: 25px;
+	color: white;
+	margin-top: 30px;
+	margin-left: 70px;
+	margin-right: 500px;
+}
+
+#Hem{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
 @media only screen and (max-width: 1000px){
 
 	#låd2{
@@ -333,6 +260,26 @@ width: 70%;
 		font-size: 30px;
 		color: white;
 		margin-top: 17%
-}
-/*------------Oskars kod slutar----------------------*/
 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------*/
