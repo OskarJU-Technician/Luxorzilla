@@ -69,9 +69,11 @@ background-color: grey;
 
 #RemXEmilia{
 	grid-area: RemXEmilia;
-	background-color: red;
-
-
+	background-color: #52514E;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Lucida Console", "Courier New", monospace;
 }
 
 #Maisan{
@@ -96,6 +98,48 @@ grid-template-areas:
 
 
 }
+
+/*----------------Tom---------------------*/
+
+.pil1{
+	width: 7%;
+	height: auto;
+}
+
+.pil2{
+	width: 7%;
+	height: auto;
+}
+
+.Bilder{
+	position: relative;
+	bottom: 50px;
+	left: -520px;
+
+
+}
+
+.BilderBilar{
+	display: flex;
+	width: 2400px;
+
+
+
+}
+
+.Vit{
+	width: 70%;
+}
+
+.window{
+	width: 800px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
 
 /*-----------------Oskar------------------------*/
 
@@ -199,7 +243,6 @@ width: 70%;
 
 }
 
-
 @media only screen and (max-width: 1000px){
 
 	#låd2{
@@ -240,8 +283,6 @@ width: 70%;
 		font-size: 30px;
 		color: white;
 		margin-top: 17%
-
-
-
 }
-/*----------------------------------------------*/
+/*------------Oskars kod slutar----------------------*/
+
